@@ -1,0 +1,26 @@
+# 8-de-febrero
+Ejercicios de MatLab
+
+% 1.- 2x+a=5
+syms x a b y c 
+
+Q=2*x+a-5;
+solve(Q)
+
+% 2.- x^2+ax+b
+
+W=x^2+a*x+b;
+solve(W)
+
+% 3. 2e^x +3cos x 
+
+E=2*exp(x)+3*cos(x);
+solve(E)
+
+% 4.- 
+
+Z=[2 -3*c;c 2];
+T=[x;y];
+E=[5;7];
+Ab=[Z E]
+rref(Ab)
